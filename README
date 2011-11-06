@@ -3,6 +3,10 @@ channel in justin.tv .
 
 usage: ./stream.sh $your_jtv_stream_key
 
+NOTE: to get your stream key, go to
+http://www.justin.tv/broadcast/adv_other , and click "Show" next to
+"Stream Key:" .
+
 NOTE: it is probably clever to dump the command into another script so
 that when you start broadcasting you don't give away your stream key.
 
