@@ -1,0 +1,20 @@
+A script for streaming your X11 root window and ALSA output to your
+channel in justin.tv .
+
+usage: ./stream.sh $your_jtv_stream_key
+
+NOTE: it is probably clever to dump the command into another script so
+that when you start broadcasting you don't give away your stream key.
+
+This script is taken directly from
+http://community.justin.tv/forums/showthread.php?t=7479 ; I don't
+claim to have figured this out myself.
+
+NOTE: The ffmpeg package in ubuntu doesn't have all the right codecs
+installed. I followed these instructions (steps 1, 2, 3, and 5) and
+they worked for me:
+
+http://ubuntuforums.org/showthread.php?t=786095
+
+In case the thread disappears, I put the relevant shell commands in
+ubuntu-setup.sh (you will need to run the script as root).
